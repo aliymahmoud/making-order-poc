@@ -27,6 +27,8 @@ row-level lock can cause deadlocks but it could seem the most reasonable approac
 #### Notifying when one of the ingredients reaches below a certain level:
 * The other part is notified when the stock reaches limits defined for every ingredient (the ingredients stock level has a default value of 50% to send the email, and can be modified for each ingredient).
 
+## ERD
+![Database Structure](https://file.io/2DDoPOuugYy5)
 
 ## Enhancements
 * use value objects for quantity, money, and prices
