@@ -25,4 +25,4 @@ row-level lock can cause deadlocks but it could seem the most reasonable approac
 
 * in this Proof Of Concept (POC) the row-level lock is applied along with the database transaction with several attempts in case of a deadlock. 
 #### Notifying when one of the ingredients reaches below a certain level:
-* The other part is notified when the stock reaches limits defined for every ingredient.
+* The other part is notified when the stock reaches limits defined for every ingredient (has a default value of 50%).
