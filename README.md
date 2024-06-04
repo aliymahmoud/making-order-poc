@@ -30,3 +30,4 @@ row-level lock can cause deadlocks but it could seem the most reasonable approac
 
 ## Enhancements
 * use value objects for quantity, money, and prices
+* add feature tests
