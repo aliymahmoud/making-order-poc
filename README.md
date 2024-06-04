@@ -29,6 +29,8 @@ row-level lock can cause deadlocks but it could seem the most reasonable approac
 
 ## ERD
 ![Database Structure](https://file.io/2DDoPOuugYy5)
+* The order has a polymorphic relationship with the order items (orderables table) so the order can include different things than products.
+* Each ingredient has a custom limit for triggering the notification but it has a default value of 50% and it can be a fixed number.
 
 ## Enhancements
 * use value objects for quantity, money, and prices
