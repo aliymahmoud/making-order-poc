@@ -4,9 +4,9 @@ This application was built on top of Laravel 10 and containerized by Laravel sai
 
 ## Getting Started
 
-1. You must have composer running on your machine, [install Docker Compose](https://docs.docker.com/compose/install/).
+1. You must have docker running on your machine, [install Docker Compose](https://docs.docker.com/compose/install/).
 2. Run `./vendor/bin/sail up`.
-3. the end point for creating order is `/api/order` (POST)
+3. the endpoint for creating order is `/api/order` (POST)
 
 ## POC Challenges:
 #### Making Order:
